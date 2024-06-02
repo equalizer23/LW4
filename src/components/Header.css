@@ -1,0 +1,16 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
