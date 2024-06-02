@@ -6,7 +6,7 @@ function Overview({ country }) {
   const [universities, setData] = useState([])
 
   useEffect(() => {
-    fetch(`http://universities.hipolabs.com/search?country=${country}`)
+    fetch(`https://universities.hipolabs.com/search?country=${country}`)
       .then((response) => response.json())
       .then((data) => setData(data))
   }, [country])
